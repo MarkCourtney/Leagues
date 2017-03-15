@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="ServiceCallout.PremierLeague2016">
+    <DisplayName>ServiceCallout.PremierLeague2016</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <URL>https://apibaas-trial.apigee.net/markcourtney/players/matchdays?ql=matchday=12</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

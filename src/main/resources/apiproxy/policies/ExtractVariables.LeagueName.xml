@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariables.LeagueName">
+    <DisplayName>ExtractVariables.LeagueName</DisplayName>
+    <Properties/>
+    <URIPath name="leagueName">
+        <Pattern ignoreCase="true">**/{leagueName}</Pattern>
+    </URIPath>
+    <Source clearPayload="false">request</Source>
+    <VariablePrefix>leagues</VariablePrefix>
+</ExtractVariables>

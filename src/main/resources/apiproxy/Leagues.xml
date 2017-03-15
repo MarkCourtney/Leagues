@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="9" name="Leagues">
+    <Basepaths>/leagues</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1489611095141</CreatedAt>
+    <CreatedBy>immarkc@gmail.com</CreatedBy>
+    <Description>Get league data</Description>
+    <DisplayName>Leagues</DisplayName>
+    <LastModifiedAt>1489614429082</LastModifiedAt>
+    <LastModifiedBy>immarkc@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>AssignMessage.HelloWorldResponse</Policy>
+        <Policy>AssignMessage.SetLeagueTableResponse</Policy>
+        <Policy>ExtractVariables.GetStandings</Policy>
+        <Policy>ExtractVariables.LeagueName</Policy>
+        <Policy>MapLeagueNameToId</Policy>
+        <Policy>ServiceCallout.PremierLeague2016</Policy>
+        <Policy>SpikeArrest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://MapLeagueNameToId.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>

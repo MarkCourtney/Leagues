@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<AssignMessage async="false" continueOnError="false" enabled="true" name="AssignMessage.SetHelloWorldPayload">
-    <AssignTo createNew="true" type="request">partner.request</AssignTo>
-    <Set>
-        <!--<Verb>POST</Verb>-->
-        <Payload contentType="text/plain">Hello World</Payload>
-    </Set>
-</AssignMessage>
