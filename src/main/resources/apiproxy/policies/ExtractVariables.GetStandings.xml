@@ -4,9 +4,9 @@
     <Properties/>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
     <JSONPayload>
-        <Variable name="calloutResponse" type="nodeset">
-            <JSONPath>$.entities</JSONPath>
+        <Variable name="standings" type="nodeset">
+            <JSONPath>$.entities[0]</JSONPath>
         </Variable>
     </JSONPayload>
-    <Source clearPayload="false">response</Source>
+    <Source clearPayload="false">calloutResponse</Source>
 </ExtractVariables>

@@ -6,13 +6,14 @@
     <CreatedBy>immarkc@gmail.com</CreatedBy>
     <Description>Get league data</Description>
     <DisplayName>Leagues</DisplayName>
-    <LastModifiedAt>1489614429082</LastModifiedAt>
+    <LastModifiedAt>1490645308171</LastModifiedAt>
     <LastModifiedBy>immarkc@gmail.com</LastModifiedBy>
     <Policies>
         <Policy>AssignMessage.HelloWorldResponse</Policy>
         <Policy>AssignMessage.SetLeagueTableResponse</Policy>
         <Policy>ExtractVariables.GetStandings</Policy>
         <Policy>ExtractVariables.LeagueName</Policy>
+        <Policy>JavaScript.MapLeagueNameToId</Policy>
         <Policy>MapLeagueNameToId</Policy>
         <Policy>ServiceCallout.PremierLeague2016</Policy>
         <Policy>SpikeArrest</Policy>

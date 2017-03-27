@@ -8,6 +8,6 @@
     <Response>calloutResponse</Response>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>https://apibaas-trial.apigee.net/markcourtney/players/matchdays?ql=matchday=12</URL>
+        <URL>https://apibaas-trial.apigee.net/markcourtney/footballapp/matchdays?ql=matchday={league.week}</URL>
     </HTTPTargetConnection>
 </ServiceCallout>

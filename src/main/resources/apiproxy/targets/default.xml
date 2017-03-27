@@ -4,7 +4,7 @@
     <FaultRules/>
     <PreFlow name="PreFlow">
         <Request/>
-        <Response></Response>
+        <Response/>
     </PreFlow>
     <PostFlow name="PostFlow">
         <Request/>
@@ -13,6 +13,6 @@
     <Flows/>
     <HTTPTargetConnection>
         <Properties/>
-        <URL>http://mocktarget.apigee.net</URL>
+        <URL>http://api.football-data.org/v1/soccerseasons/</URL>
     </HTTPTargetConnection>
 </TargetEndpoint>

@@ -2,9 +2,12 @@
 <ExtractVariables async="false" continueOnError="false" enabled="true" name="ExtractVariables.LeagueName">
     <DisplayName>ExtractVariables.LeagueName</DisplayName>
     <Properties/>
-    <URIPath name="leagueName">
-        <Pattern ignoreCase="true">**/{leagueName}</Pattern>
+    <URIPath>
+        <Pattern ignoreCase="true">**/leagues/{leagueName}/seasons/{year}</Pattern>
     </URIPath>
+    <QueryParam name="matchday">
+        <Pattern ignoreCase="true">{week}</Pattern>
+    </QueryParam>
     <Source clearPayload="false">request</Source>
-    <VariablePrefix>leagues</VariablePrefix>
+    <VariablePrefix>league</VariablePrefix>
 </ExtractVariables>

@@ -3,7 +3,7 @@
     <DisplayName>AssignMessage.SetLeagueTableResponse</DisplayName>
     <Properties/>
     <Set>
-        <Payload contentType="application/json">{calloutResponse.content}</Payload>
+        <Payload contentType="application/json">{standings}</Payload>
     </Set>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
     <AssignTo createNew="false" transport="http" type="request"/>
