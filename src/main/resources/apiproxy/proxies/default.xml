@@ -17,15 +17,15 @@
                     <Name>ExtractVariables.LeagueName</Name>
                 </Step>
                 <Step>
-                    <Name>JavaScript.MapLeagueNameToId</Name>
-                </Step>
-                <Step>
                     <Name>ServiceCallout.PremierLeague2016</Name>
                 </Step>
             </Request>
             <Response>
                 <Step>
                     <Name>ExtractVariables.GetStandings</Name>
+                </Step>
+                <Step>
+                    <Name>JavaScript.ExtractParams</Name>
                 </Step>
                 <Step>
                     <Name>AssignMessage.SetLeagueTableResponse</Name>
